@@ -1,4 +1,7 @@
 class loadingAnim extends eui.Component implements  eui.UIComponent {
+
+	private loading:egret.tween.TweenGroup
+
 	public constructor() {
 		super();
 	}
@@ -12,6 +15,10 @@ class loadingAnim extends eui.Component implements  eui.UIComponent {
 	protected childrenCreated():void
 	{
 		super.childrenCreated();
+	}
+
+	public onLoad(){
+		this.loading.play()
 	}
 	
 }

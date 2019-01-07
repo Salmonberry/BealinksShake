@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,checkbox_select_disabled2_png,checkbox_select_down2_png,checkbox_select_up2_png,checkbox_unselect2_png,gameEui_json,grab_json,grab_png,HappyNewYear_json,HappyNewYear_png,shake_json,shake_png,Winning_json,Winning_png,组 38_png,组 39_png,矩形 21_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,checkbox_select_disabled2_png,checkbox_select_down2_png,checkbox_select_up2_png,checkbox_unselect2_png,gameEui_json,组 38_png,组 39_png,矩形 21_png,beer_json,beer_png,shake_json,shake_png,congratulation_json,congratulation_png,dog_json,dog_png,grab_json,grab_png",
 			"name": "preload"
 		}
 	],
@@ -152,46 +152,6 @@
 			"url": "gameEui.json"
 		},
 		{
-			"name": "grab_json",
-			"type": "json",
-			"url": "texture/grab.json"
-		},
-		{
-			"name": "grab_png",
-			"type": "image",
-			"url": "texture/grab.png"
-		},
-		{
-			"name": "HappyNewYear_json",
-			"type": "json",
-			"url": "texture/HappyNewYear.json"
-		},
-		{
-			"name": "HappyNewYear_png",
-			"type": "image",
-			"url": "texture/HappyNewYear.png"
-		},
-		{
-			"name": "shake_json",
-			"type": "json",
-			"url": "texture/shake.json"
-		},
-		{
-			"name": "shake_png",
-			"type": "image",
-			"url": "texture/shake.png"
-		},
-		{
-			"name": "Winning_json",
-			"type": "json",
-			"url": "texture/Winning.json"
-		},
-		{
-			"name": "Winning_png",
-			"type": "image",
-			"url": "texture/Winning.png"
-		},
-		{
 			"name": "组 38_png",
 			"type": "image",
 			"url": "texture/组 38.png"
@@ -205,6 +165,56 @@
 			"name": "矩形 21_png",
 			"type": "image",
 			"url": "texture/矩形 21.png"
+		},
+		{
+			"name": "beer_json",
+			"type": "json",
+			"url": "texture/beer.json"
+		},
+		{
+			"name": "beer_png",
+			"type": "image",
+			"url": "texture/beer.png"
+		},
+		{
+			"name": "shake_json",
+			"type": "json",
+			"url": "texture/shake.json"
+		},
+		{
+			"name": "shake_png",
+			"type": "image",
+			"url": "texture/shake.png"
+		},
+		{
+			"name": "congratulation_json",
+			"type": "json",
+			"url": "texture/congratulation.json"
+		},
+		{
+			"name": "congratulation_png",
+			"type": "image",
+			"url": "texture/congratulation.png"
+		},
+		{
+			"name": "dog_json",
+			"type": "json",
+			"url": "texture/dog.json"
+		},
+		{
+			"name": "dog_png",
+			"type": "image",
+			"url": "texture/dog.png"
+		},
+		{
+			"name": "grab_json",
+			"type": "json",
+			"url": "texture/grab.json"
+		},
+		{
+			"name": "grab_png",
+			"type": "image",
+			"url": "texture/grab.png"
 		}
 	]
 }

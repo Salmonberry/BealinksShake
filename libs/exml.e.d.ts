@@ -1,3 +1,9 @@
+declare class loadingAnimSkin extends eui.Skin{
+}
+declare class moiveClipeSkin extends eui.Skin{
+}
+declare class shakeComponentSkin extends eui.Skin{
+}
 declare module skins{
 	class ButtonSkin extends eui.Skin{
 	}

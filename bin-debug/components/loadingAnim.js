@@ -8,20 +8,21 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var StartScene = (function (_super) {
-    __extends(StartScene, _super);
-    function StartScene() {
+var loadingAnim = (function (_super) {
+    __extends(loadingAnim, _super);
+    function loadingAnim() {
         return _super.call(this) || this;
     }
-    StartScene.prototype.partAdded = function (partName, instance) {
+    loadingAnim.prototype.partAdded = function (partName, instance) {
         _super.prototype.partAdded.call(this, partName, instance);
     };
-    StartScene.prototype.childrenCreated = function () {
+    loadingAnim.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
-        this.loadingAnim.onLoad();
-        this.beer.play();
     };
-    return StartScene;
+    loadingAnim.prototype.onLoad = function () {
+        this.loading.play();
+    };
+    return loadingAnim;
 }(eui.Component));
-__reflect(StartScene.prototype, "StartScene", ["eui.UIComponent", "egret.DisplayObject"]);
-//# sourceMappingURL=StartScene.js.map
+__reflect(loadingAnim.prototype, "loadingAnim", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=loadingAnim.js.map
