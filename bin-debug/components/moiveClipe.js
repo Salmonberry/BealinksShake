@@ -53,11 +53,11 @@ var moiveClipe = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    moiveClipe.prototype.play = function () {
+    moiveClipe.prototype.play = function (num) {
         var mcFactory = new egret.MovieClipDataFactory(RES.getRes(this.dataSet), RES.getRes(this.texture));
         var mc = new egret.MovieClip(mcFactory.generateMovieClipData(this.movieClipName));
         this.addChild(mc);
-        mc.play(1);
+        mc.play(num);
     };
     return moiveClipe;
 }(eui.Component));

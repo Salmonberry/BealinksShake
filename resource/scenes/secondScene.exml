@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="app.secondSceneSkin" width="400" height="593" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16827706353" ></w:Config>
+	<e:Rect top="0" left="0" right="0" bottom="0" fillColor="0xFD3331" locked="true"/>
+	<e:Image source="继续摇_png" x="12.5" y="23.99" locked="true"/>
+	<e:Image source="656副本_png" bottom="0" right="0" left="0" locked="true"/>
+	<e:Image source="小狗_png" x="12.03" y="108.83" locked="true"/>
+	<ns1:moiveClipe id="graf" width="20" height="20" x="112.33" y="238.33" movieClipName="graf" dataSet="graf_json" texture="graf_png" locked="true"/>
+	<e:Group x="362.39" y="459.81">
+		<e:Image id="strip" source="组 38_png" x="-2" y="-2.16" rotation="270" anchorOffsetX="0" width="290" anchorOffsetY="0" height="6"/>
+		<e:Image id="sliver" source="组 39_png" x="-2" y="-2.01" rotation="270" anchorOffsetY="0" height="6"/>
+	</e:Group>
+</e:Skin>

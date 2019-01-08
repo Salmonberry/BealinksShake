@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="StartSceneSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+<e:Skin class="playGame.StartSceneSkin" width="400" height="593" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
 	<w:Config id="168265a2d31" ></w:Config>
-	<ns1:loadingAnim id="loadingAnim" width="20" height="20" x="1" y="14"/>
-	<ns1:moiveClipe id="beer" width="20" height="20" x="281" y="130" movieClipName="beer" dataSet="beer_json" texture="beer_png"/>
+	<e:Rect top="0" left="0" bottom="0" right="0" fillColor="0xFD3331"/>
+	<ns1:loadingAnim id="loadingAnim" x="64" y="259"/>
+	<ns1:moiveClipe id="shake" width="20" height="20" x="121" y="119" movieClipName="shake" dataSet="shake_json" texture="shake_png"/>
+	
 </e:Skin>

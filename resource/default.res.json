@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,checkbox_select_disabled2_png,checkbox_select_down2_png,checkbox_select_up2_png,checkbox_unselect2_png,gameEui_json,组 38_png,组 39_png,矩形 21_png,beer_json,beer_png,shake_json,shake_png,congratulation_json,congratulation_png,dog_json,dog_png,grab_json,grab_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,checkbox_select_disabled2_png,checkbox_select_down2_png,checkbox_select_up2_png,checkbox_unselect2_png,gameEui_json,组 38_png,组 39_png,矩形 21_png,beer_json,beer_png,congratulation_json,congratulation_png,dog_json,dog_png,shake_json,shake_png,656副本_png,小狗_png,继续摇_png,graf_json,graf_png",
 			"name": "preload"
 		}
 	],
@@ -177,16 +177,6 @@
 			"url": "texture/beer.png"
 		},
 		{
-			"name": "shake_json",
-			"type": "json",
-			"url": "texture/shake.json"
-		},
-		{
-			"name": "shake_png",
-			"type": "image",
-			"url": "texture/shake.png"
-		},
-		{
 			"name": "congratulation_json",
 			"type": "json",
 			"url": "texture/congratulation.json"
@@ -207,14 +197,39 @@
 			"url": "texture/dog.png"
 		},
 		{
-			"name": "grab_json",
+			"name": "shake_json",
 			"type": "json",
-			"url": "texture/grab.json"
+			"url": "texture/shake.json"
 		},
 		{
-			"name": "grab_png",
+			"name": "shake_png",
 			"type": "image",
-			"url": "texture/grab.png"
+			"url": "texture/shake.png"
+		},
+		{
+			"name": "656副本_png",
+			"type": "image",
+			"url": "texture/656副本.png"
+		},
+		{
+			"name": "小狗_png",
+			"type": "image",
+			"url": "texture/小狗.png"
+		},
+		{
+			"name": "继续摇_png",
+			"type": "image",
+			"url": "texture/继续摇.png"
+		},
+		{
+			"name": "graf_json",
+			"type": "json",
+			"url": "texture/graf.json"
+		},
+		{
+			"name": "graf_png",
+			"type": "image",
+			"url": "texture/graf.png"
 		}
 	]
 }

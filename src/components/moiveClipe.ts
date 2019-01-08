@@ -42,11 +42,11 @@ class moiveClipe extends eui.Component implements eui.UIComponent {
 		this._movieClipName = value;
 	}
 
-	public play(): void {
+	public play(num:number): void {
 		let mcFactory = new egret.MovieClipDataFactory(RES.getRes(this.dataSet), RES.getRes(this.texture));
 		let mc = new egret.MovieClip(mcFactory.generateMovieClipData(this.movieClipName));
 		this.addChild(mc);
-		mc.play(1);
+		mc.play(num);
 	}
 
 }

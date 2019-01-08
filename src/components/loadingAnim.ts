@@ -17,8 +17,18 @@ class loadingAnim extends eui.Component implements  eui.UIComponent {
 		super.childrenCreated();
 	}
 
+	private  _num:number;
+
+	public get texture(): number {
+		return this._num;
+	}
+
+	public set texture(value: number) {
+		this._num = value;
+	}
+
 	public onLoad(){
-		this.loading.play()
+		this.loading.play(1)
 	}
 	
 }

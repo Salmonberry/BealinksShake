@@ -19,8 +19,18 @@ var loadingAnim = (function (_super) {
     loadingAnim.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
     };
+    Object.defineProperty(loadingAnim.prototype, "texture", {
+        get: function () {
+            return this._num;
+        },
+        set: function (value) {
+            this._num = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
     loadingAnim.prototype.onLoad = function () {
-        this.loading.play();
+        this.loading.play(1);
     };
     return loadingAnim;
 }(eui.Component));

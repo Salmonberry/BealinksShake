@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="loadingAnimSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
+<e:Skin class="loadingAnimSkin" width="268" height="76" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
 	<w:Declarations>
 		<tween:TweenGroup id="loading">
-			<tween:TweenItem target="{image}">
+			<tween:TweenItem target="{length}">
 				<tween:Set>
 					<tween:props>
 						<e:Object width="{0}"/>
 					</tween:props>
 				</tween:Set>
-				<tween:To duration="1000">
+				<tween:To duration="3000">
 					<tween:props>
-						<e:Object width="{368}"/>
+						<e:Object width="{268}"/>
 					</tween:props>
 				</tween:To>
 			</tween:TweenItem>
 		</tween:TweenGroup>
 	</w:Declarations>
 	<w:Config id="168265f715c" ></w:Config>
-	<e:Group x="11" y="133">
-		<e:Image source="矩形 21_png" x="0" y="0"/>
-		<e:Image source="组 38_png" x="0" y="0"/>
-		<e:Image id="image" source="组 39_png" x="-0.4" y="0"/>
+	<e:Group x="0" y="0">
+		<e:Image source="矩形 21_png" x="0" y="0" width="268"/>
+		<e:Image source="组 38_png" x="0" y="0" width="268"/>
+		<e:Image id="length" source="组 39_png" x="-0.4" y="0" width="0"/>
 	</e:Group>
+	<e:Label text="加載到" x="69" y="22.6" size="20" visible="false"/>
+	<e:Label id="percentage" text="0%" x="130.6" y="22.6" size="20" visible="false"/>
 </e:Skin>
