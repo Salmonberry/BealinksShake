@@ -1,5 +1,4 @@
-module app {
-	export class secondScene extends eui.Component implements eui.UIComponent {
+ class secondScene extends eui.Component implements eui.UIComponent {
 
 		private step: number = 6;
 		private graf: moiveClipe;
@@ -59,4 +58,3 @@ module app {
 			}
 		}
 	}
-}

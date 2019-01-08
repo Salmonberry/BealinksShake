@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="app.secondSceneSkin" width="400" height="593" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+<e:Skin class="secondSceneSkin" width="400" height="593" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
 	<w:Config id="16827706353" ></w:Config>
 	<e:Rect top="0" left="0" right="0" bottom="0" fillColor="0xFD3331" locked="true"/>
 	<e:Image source="继续摇_png" x="12.5" y="23.99" locked="true"/>

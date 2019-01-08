@@ -3,9 +3,7 @@ module playGame {
 
 		private loadingAnim: loadingAnim
 		private shake:moiveClipe
-
-
-		private static instance: StartScene;
+		private static instance: StartScene
 
 		public constructor() {
 			super();
@@ -23,12 +21,10 @@ module playGame {
 			this.playGamess()
 		}
 
-		public playGamess() {
-			// console.log("aaa")
-			
+		public playGamess():void {
 			this.loadingAnim.onLoad()
 			setTimeout(()=>{
-				Main.instance.gotoScene(new app.secondScene())
+				Main.instance.gotoScene(new secondScene())
 			},3000)
 			
 		}

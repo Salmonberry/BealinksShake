@@ -26,10 +26,9 @@ var playGame;
             this.playGamess();
         };
         StartScene.prototype.playGamess = function () {
-            // console.log("aaa")
             this.loadingAnim.onLoad();
             setTimeout(function () {
-                Main.instance.gotoScene(new app.secondScene());
+                Main.instance.gotoScene(new secondScene());
             }, 3000);
         };
         return StartScene;
