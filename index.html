@@ -9,7 +9,6 @@
     <meta name="screen-orientation" content="portrait" />
     <meta name="x5-fullscreen" content="true" />
     <meta name="360-fullscreen" content="true" />
-    <script src="starindex.js"></script>
     <style>
         html, body {
             -ms-touch-action: none;
@@ -30,14 +29,8 @@
         margin: auto;width: 100%;top: 59px; bottom: 20px;
 
         }
-		@font-face {
-            font-family:"your font name";
-            src: url("resource/fonts/your font name.woff2") format('woff2'),
-                 url('resource/fonts/your font name.woff') format('woff'),
-                 url('resource/fonts/your font name.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-        }
+		/*@font-face {
+        }*/
         @media screen and (max-device-width:641px) and (max-device-height:823px){
            #logo {
                height: 25px;
@@ -80,6 +73,7 @@
     </div>
    
 <script>
+function playGame(){
     var loadScript = function (list, callback) {
         var loaded = 0;
         var loadNext = function () {
@@ -110,6 +104,7 @@
 
     var xhr = new XMLHttpRequest();
     xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    console.log(xhr);
     xhr.addEventListener("load", function () {
         var manifest = JSON.parse(xhr.response);
         var list = manifest.initial.concat(manifest.game);
@@ -133,19 +128,48 @@
                     return (window.devicePixelRatio || 1) / backingStore;
                 }
             });
-
-            // alignHeaderFooter();
         });
     });
     xhr.send(null);
+}
+    
+</script>
 
-    // 調試
-    if(Gamestart.StartScene.playGame()){
-        console.log("ok")
-    }
-    else{
-        console.log("fail")
-    }
+<script>
+     /**
+         * Check the device is allow to play game
+         */
+        function check() {
+
+            console.log('Validate Passed!');
+
+            var isFunc = false;
+            try{
+                isFunc = typeof (eval('playGame'))=="function";
+            }catch (e) {
+
+            }
+
+            if(isFunc){
+                playGame();
+                console.log('Executed playGame function!');
+                return;
+            }
+
+            console.log('The playGame Function is not identify!');
+            return;
+        }
+
+        /**
+         * Notify game complete when user had finished game
+         */
+        function notifyGameComplete() {
+            console.log('Executed notifyGameComplete function!');
+            // Document.getElementId('')
+            return;
+        }
+
+        check();
 </script>
 </body>
 

@@ -32,6 +32,7 @@ var secondScene = (function (_super) {
         this.graf.play(-1);
         this.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onUpdateHeight, this);
         this.onGlide();
+        this.onchangScene();
     };
     secondScene.prototype.onUpdateHeight = function () {
         this.key = true;
@@ -55,10 +56,10 @@ var secondScene = (function (_super) {
             }, 2000);
         }
     };
-    secondScene.prototype.noteifyGameComplete = function () {
-        if (this.sliver.width == 286) {
-            console.log("complete");
-        }
+    secondScene.prototype.onchangScene = function () {
+        setTimeout(function () {
+            notifyGameComplete();
+        }, 10000);
     };
     return secondScene;
 }(eui.Component));

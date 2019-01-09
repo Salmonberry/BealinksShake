@@ -178,7 +178,7 @@ var Main = (function (_super) {
         // } else {
         //     this.addChild(new playGame.StartScene());
         // }
-        this.addChild(new Gamestart.StartScene());
+        this.addChild(new StartScene());
     };
     Main.prototype.gotoScene = function (scene) {
         this.removeChildren();

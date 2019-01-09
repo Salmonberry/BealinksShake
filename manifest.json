@@ -9,15 +9,14 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/components/loadingAnim.js",
 		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
 		"bin-debug/ThemeAdapter.js",
-		"bin-debug/LoadingUI.js",
+		"bin-debug/components/loadingAnim.js",
 		"bin-debug/components/moiveClipe.js",
 		"bin-debug/components/shakeComponent.js",
-		"bin-debug/scenes/QuestionScene.js",
 		"bin-debug/scenes/secondScene.js",
 		"bin-debug/scenes/StartScene.js"
 	]

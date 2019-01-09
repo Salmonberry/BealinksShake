@@ -2,8 +2,6 @@ declare class loadingAnimSkin extends eui.Skin{
 }
 declare class moiveClipeSkin extends eui.Skin{
 }
-declare class shakeComponentSkin extends eui.Skin{
-}
 declare module skins{
 	class ButtonSkin extends eui.Skin{
 	}
@@ -56,11 +54,7 @@ declare module skins{
 	class VSliderSkin extends eui.Skin{
 	}
 }
-declare class QuestionSceneSkin extends eui.Skin{
-}
 declare class secondSceneSkin extends eui.Skin{
 }
-declare module Gamestart{
-	class StartSceneSkin extends eui.Skin{
-	}
+declare class StartSceneSkin extends eui.Skin{
 }
