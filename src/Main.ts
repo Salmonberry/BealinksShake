@@ -109,7 +109,7 @@ class Main extends eui.UILayer {
         // } else {
         //     this.addChild(new playGame.StartScene());
         // }
-        this.addChild(new playGame.StartScene());
+        this.addChild(new Gamestart.StartScene());
     }
 
     public static instance: Main

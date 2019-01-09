@@ -9,6 +9,7 @@
     <meta name="screen-orientation" content="portrait" />
     <meta name="x5-fullscreen" content="true" />
     <meta name="360-fullscreen" content="true" />
+    <script src="starindex.js"></script>
     <style>
         html, body {
             -ms-touch-action: none;
@@ -138,49 +139,13 @@
     });
     xhr.send(null);
 
-    // var playGame=new playGame.StartScene();
-    // playGame.playGame();
-
-    function playGame(){
-         playGame.StartScene.instance.playGamess()
-    }
-
-    playGame()
-   
-    
-
     // 調試
-    // function check() {
-
-    //         console.log('Validate Passed!');
-
-    //         var isFunc = false;
-    //         try{
-    //             isFunc = typeof (eval('playGame'))=="function";
-    //         }catch (e) {
-
-    //         }
-
-    //         if(isFunc){
-    //             playGame();
-    //             console.log('Executed playGame function!');
-    //             return;
-    //         }
-
-    //         console.log('The playGame Function is not identify!');
-    //         return;
-    //     }
-
-    //     /**
-    //      * Notify game complete when user had finished game
-    //      */
-    //     function notifyGameComplete() {
-    //         console.log('Executed notifyGameComplete function!');
-    //         return;
-    //     }
-
-    //     check();
-
+    if(Gamestart.StartScene.playGame()){
+        console.log("ok")
+    }
+    else{
+        console.log("fail")
+    }
 </script>
 </body>
 

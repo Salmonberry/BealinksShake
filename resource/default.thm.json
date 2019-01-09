@@ -13,11 +13,12 @@
 		"eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
 		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
 		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
-		"playGame.StartScene": "resource/scenes/StartScene.exml",
+		"Gamestart.StartScene": "resource/scenes/StartScene.exml",
 		"loadingAnim": "resource/components/loadingAnim.exml",
 		"shakeComponent": "resource/components/shakeComponent.exml",
 		"moiveClipe": "resource/components/moiveClipe.exml",
-		"secondScene": "resource/scenes/secondScene.exml"
+		"secondScene": "resource/scenes/secondScene.exml",
+		"QuestionScene": "resource/scenes/QuestionScene.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -37,6 +38,7 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
+		"resource/scenes/QuestionScene.exml",
 		"resource/scenes/secondScene.exml",
 		"resource/scenes/StartScene.exml"
 	],

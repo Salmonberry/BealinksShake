@@ -8,8 +8,8 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var playGame;
-(function (playGame) {
+var Gamestart;
+(function (Gamestart) {
     var StartScene = (function (_super) {
         __extends(StartScene, _super);
         function StartScene() {
@@ -17,15 +17,12 @@ var playGame;
             StartScene.instance = _this;
             return _this;
         }
-        // protected partAdded(partName: string, instance: any): void {
-        // 	super.partAdded(partName, instance);
-        // }
         StartScene.prototype.childrenCreated = function () {
             _super.prototype.childrenCreated.call(this);
             this.shake.play(-1);
-            this.playGamess();
+            // this.playGamess()
         };
-        StartScene.prototype.playGamess = function () {
+        StartScene.prototype.playGame = function () {
             this.loadingAnim.onLoad();
             setTimeout(function () {
                 Main.instance.gotoScene(new secondScene());
@@ -33,7 +30,7 @@ var playGame;
         };
         return StartScene;
     }(eui.Component));
-    playGame.StartScene = StartScene;
-    __reflect(StartScene.prototype, "playGame.StartScene", ["eui.UIComponent", "egret.DisplayObject"]);
-})(playGame || (playGame = {}));
+    Gamestart.StartScene = StartScene;
+    __reflect(StartScene.prototype, "Gamestart.StartScene", ["eui.UIComponent", "egret.DisplayObject"]);
+})(Gamestart || (Gamestart = {}));
 //# sourceMappingURL=StartScene.js.map
