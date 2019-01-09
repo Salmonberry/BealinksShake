@@ -9,6 +9,7 @@
     <meta name="screen-orientation" content="portrait" />
     <meta name="x5-fullscreen" content="true" />
     <meta name="360-fullscreen" content="true" />
+    <script src="starindex.js"></script>
     <style>
         html, body {
             -ms-touch-action: none;
@@ -29,8 +30,14 @@
         margin: auto;width: 100%;top: 59px; bottom: 20px;
 
         }
-		/*@font-face {
-        }*/
+		@font-face {
+            font-family:"your font name";
+            src: url("resource/fonts/your font name.woff2") format('woff2'),
+                 url('resource/fonts/your font name.woff') format('woff'),
+                 url('resource/fonts/your font name.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
         @media screen and (max-device-width:641px) and (max-device-height:823px){
            #logo {
                height: 25px;
@@ -65,7 +72,7 @@
         data-scale-mode="showAll" 
         data-frame-rate="30"
         data-content-width="375" 
-        data-content-height="812" 
+        data-content-height="593" 
         data-multi-fingered="2" 
         data-show-fps="false" 
         data-show-log="false"
@@ -104,7 +111,6 @@ function playGame(){
 
     var xhr = new XMLHttpRequest();
     xhr.open('GET', './manifest.json?v=' + Math.random(), true);
-    console.log(xhr);
     xhr.addEventListener("load", function () {
         var manifest = JSON.parse(xhr.response);
         var list = manifest.initial.concat(manifest.game);
@@ -128,6 +134,8 @@ function playGame(){
                     return (window.devicePixelRatio || 1) / backingStore;
                 }
             });
+
+            // alignHeaderFooter();
         });
     });
     xhr.send(null);
@@ -165,7 +173,6 @@ function playGame(){
          */
         function notifyGameComplete() {
             console.log('Executed notifyGameComplete function!');
-            // Document.getElementId('')
             return;
         }
 

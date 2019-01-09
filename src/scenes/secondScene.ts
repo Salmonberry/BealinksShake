@@ -1,7 +1,7 @@
 declare function notifyGameComplete();
 class secondScene extends eui.Component implements eui.UIComponent {
 
-	private step: number = 6;
+	private step: number = 3;
 	private graf: moiveClipe;
 	private sliver: eui.Image;
 	private MaxHeight: number = 294;

@@ -12,7 +12,7 @@ var secondScene = (function (_super) {
     __extends(secondScene, _super);
     function secondScene() {
         var _this = _super.call(this) || this;
-        _this.step = 6;
+        _this.step = 3;
         _this.MaxHeight = 294;
         _this.MinHeight = 0;
         _this.grabHeight = 0;

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="secondSceneSkin" width="400" height="593" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+<e:Skin class="secondSceneSkin" width="375" height="812" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
 	<w:Config id="16827706353" ></w:Config>
 	<e:Rect top="0" left="0" right="0" bottom="0" fillColor="0xFD3331"/>
-	<e:Image source="继续摇_png" x="12.5" y="23.99"/>
-	<e:Image source="小狗_png" x="113.03" y="-50.17"/>
-	<ns1:moiveClipe id="graf" width="20" height="20" x="112.33" y="238.33" movieClipName="graf" dataSet="graf_json" texture="graf_png" locked="true"/>
-	<e:Group x="362.39" y="459.81">
+	<e:Image source="继续摇_png" y="55.77" horizontalCenter="0"/>
+
+	<ns1:moiveClipe id="graf" width="20" height="20" x="80.47" y="298.89" movieClipName="graf" dataSet="graf_json" texture="graf_png"/>
+	<e:Group x="336.66" y="559.79">
 		<e:Image id="strip" source="组 38_png" x="-2" y="-2.16" rotation="270" anchorOffsetX="0" width="290" anchorOffsetY="0" height="6"/>
 		<e:Image id="sliver" source="组 39_png" x="-2" y="-2.01" rotation="270" anchorOffsetY="0" height="6"/>
 	</e:Group>
+	<e:Image source="656副本_png" bottom="4" left="-6"/>
+	<e:Image source="2019_bg_png" bottom="0" left="0"/>
+	<e:Image source="未标题-2_png" right="0" bottom="0"/>
+	<e:Image source="组 51_png" x="6.08" y="696.8"/>
+	<e:Label text="加油，使劲点击哦！" x="49.58" y="592.44"/>
 </e:Skin>
